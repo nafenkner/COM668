@@ -1,0 +1,5 @@
+export default function RandomText() {
+    var sentences = ['Obel Tower in Belfast is the tallest building in Ireland.', 'Belfast is home to a library that is over 200 years old. The library is located within a listed Victorian linen building and is called Linen Hall Library. The library is an impressive 232 years old, founded in 1788.', 'Belfast was the birthplace of the RMS Titanic, the world’ most famous ship which, when it was constructed in the early 1900s, was longer than the height of the world’s tallest building at 882 feet and six inches in length.', 'The historic Ulster Hall, which dates back to 1862, is where Led Zeppelin famously took to the stage to debut Stairway to Heaven in March 1971.'];
+    var random = sentences[Math.floor(Math.random()*sentences.length)];
+    return(random);
+  }
